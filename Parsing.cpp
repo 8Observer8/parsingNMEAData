@@ -65,7 +65,7 @@ bool CParsing::parseData(std::string buffer, bool& dataIsReady) {
     //    }
     //    m_buffer = arr[arr.length - 1];
 
-
+    
     // If this is the first call to the function and
     // the input buffer is not a package, then return false
     if (m_storageBufferArr.empty()) {
